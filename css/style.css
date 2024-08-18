@@ -1,0 +1,268 @@
+/*  section 1 classes  */
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.child
+{
+  
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-size: center center;
+}
+
+.span
+{
+    float: right;
+    margin: 5px;
+}
+.span1
+{
+    padding: 10px;
+    font-size: larger;
+}
+.parent img
+{
+ display: block;
+ 
+}
+.child img
+{
+    width: 180px;
+    float: left;
+
+}
+.text
+{
+    text-align: center;
+    margin: 200px;
+}
+.buttons
+{
+   
+    margin: 1px;
+    text-align: center;
+}
+
+.button1
+{
+    padding: 20px 20px 20px 20px;
+    background-color:rgb(173, 113, 69);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button2
+{
+    padding: 20px 20px 20px 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+/* end of section 1 */
+
+/* start of section 2 classes */
+
+.item
+
+{
+    width: 40%;
+  
+  margin: 30px 30px;
+}
+
+  .float-image
+{
+    float: left;
+    width: 800px ;
+}
+.text2
+{
+    width: 40%;
+    float: right;
+    padding-top: 50px;
+  
+}
+.block
+{
+    clear: right;
+}
+
+.width
+{
+  width: 25px;
+}
+.inline
+{
+    
+    display: inline-block;
+   
+}
+.border
+{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: rgb(219, 215, 215);
+}
+ /* end of section 2 */
+
+ /* start of section 3 */
+ .item1
+ {
+  float: right ;
+  width: 55%;
+ }
+ 
+ .text3
+ {
+     width: 40%;
+     float: left;
+ padding-top: 150px;
+   
+ }
+ .bg
+{
+    background: rgb(230, 227, 227);
+}
+  /* end of section 3 */
+
+ /* start of section 4 */
+
+
+.center
+{
+    text-align: center;
+    
+   
+}
+.items
+{
+    width: 30%;
+    float: left;
+    padding: 20px;
+
+}
+.container
+{
+    width: 90%;
+    float: left;
+    padding: 40px;
+    margin: 40px;
+}
+.margin
+{
+    margin-inline: 50px;
+
+}
+
+
+/* end of section 4 */
+
+/*  start of section 5  , common classes between section 3 , section 2 and section 5 ,item , item1, block,text3 , bg, inline , border "*/
+
+.bg1
+{
+    background-color: rgb(184, 133, 133);
+}
+
+/* end of section 5 */
+
+/* start of section 6 */
+.bgg
+{
+    background-color: rgb(92, 91, 91);
+     width: 100%;
+     display: inline-block;
+}
+.section0
+{
+    width: 20% ;
+    float: left;
+    margin: 20px;
+   
+    
+}
+.bgi
+{
+    background-image: url(../images/contact-details-map.png);
+    background-size: cover;
+}
+
+
+/* end of section 6 */
+
+/* start of section 7*/
+
+.final-section
+{
+    background-color: rgb(39, 36, 36);
+    text-align: center;
+    padding: 30px;
+}
+
+
+.status
+{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: rgb(219, 215, 215);
+    background-color: rgb(53, 51, 51);
+    width: 40px;
+}
+
+
+
+/* end of section 7*/
+
+
+ /* general classes */
+
+p
+{
+  font-size: 18px;
+  font-size: larger;
+  font-family: "Alegreya Sans";
+  margin: 20px;
+  color: rgb(75, 73, 73);
+  
+}
+
+
+h1
+{
+    font-size:50px;
+ font-weight: 400;
+ margin-bottom: 25px;
+ color: rgb(75, 73, 73);
+}
+
+hr{
+    
+    height: 0px;
+    border: none;
+    border-top: 1px solid rgb(119, 118, 118);
+}
+
+
+.clear-fix
+{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
